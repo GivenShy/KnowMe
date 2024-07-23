@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowMeAPI", "KnowMeAPI\KnowMeAPI.csproj", "{498F1366-43A5-499C-A4FC-0CA4A0E6D477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnowMeAPI", "KnowMeAPI\KnowMeAPI.csproj", "{498F1366-43A5-499C-A4FC-0CA4A0E6D477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowMeService", "KnowMeService\KnowMeService.csproj", "{FBE05F72-5938-4D9B-8EB0-5E4955EAE04D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowMeRepository", "KnowMeRepository\KnowMeRepository.csproj", "{DBD28872-7090-4404-AB02-635CD577BCCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{498F1366-43A5-499C-A4FC-0CA4A0E6D477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{498F1366-43A5-499C-A4FC-0CA4A0E6D477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{498F1366-43A5-499C-A4FC-0CA4A0E6D477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE05F72-5938-4D9B-8EB0-5E4955EAE04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE05F72-5938-4D9B-8EB0-5E4955EAE04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE05F72-5938-4D9B-8EB0-5E4955EAE04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE05F72-5938-4D9B-8EB0-5E4955EAE04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD28872-7090-4404-AB02-635CD577BCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD28872-7090-4404-AB02-635CD577BCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD28872-7090-4404-AB02-635CD577BCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD28872-7090-4404-AB02-635CD577BCCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
